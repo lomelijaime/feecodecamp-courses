@@ -13,7 +13,7 @@ def total_expenses(expenses):
 def filter_expenses_by_category(expenses, category):
     #Filter function returns a new list with the elements that satisfy the condition
     return filter(lambda expense: expense['category'] == category, expenses)
-    
+ #lambda functions are small anonymous functions that can take any number of arguments, but can only have one expression. They are used for creating small functions that are used only once.   
 
 def main():
     expenses = []
